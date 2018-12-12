@@ -1,5 +1,6 @@
+/*styling of the body section*/
 body{
-    background:url("bg_img.jpg");
+    background:url("bg_img.jpg");/*sourced from unsplash.com*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -8,6 +9,7 @@ body{
     color: rgba(255,255,255)
     
 }
+/*media query for screens with a maximum width of 720px*/
 @media screen and (max-width:720px){
     body{
     
@@ -19,7 +21,7 @@ body{
     
 
 }
-
+/*Styling of the container section that holds the sign in form*/
 .container{
     width:380px;
     height:470px;
@@ -27,7 +29,7 @@ body{
     margin-left:auto;
     margin-right:auto;
     margin-top: 40px;
-    background: rgba(0,0,0,0.25);
+    background: rgba(0,0,0,0.25);/*renders the background sor of transparent*/
 
 
 }
@@ -45,8 +47,9 @@ h1{
     margin-top:5px;
     
 }
+/*styling of the main logo on the from*/
 #logo{
-    border-radius: 50%;
+    border-radius: 50%; /*creates a the rounded logo image on the form*/
     height:100px;
     width:100px;
     transform: translate(140%,-15%)
